@@ -82,7 +82,6 @@ public class MyApplication extends Application {
 
         initNotification();
 
-
         FireEvent.getInstance().init(this);
 
         // 配置 AppsFlyer 转化监听器
