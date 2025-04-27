@@ -80,7 +80,6 @@ public class RestAdapter {
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(okHttpClient)
                 .build();
-        LogUtils.i("baseurl:"+retrofit.baseUrl());
         return retrofit.create(ApiInterface.class);
 
     }
