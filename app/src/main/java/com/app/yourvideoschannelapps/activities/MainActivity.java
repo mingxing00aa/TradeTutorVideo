@@ -181,7 +181,7 @@ public class MainActivity extends AppCompatActivity implements DefaultLifecycleO
 
         handleOnBackPressed();
 
-  requestPostData();
+        requestPostData();
 
     }
     private Call<AdversData> callbackCall = null;
