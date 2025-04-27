@@ -180,7 +180,6 @@ public class MainActivity extends AppCompatActivity implements DefaultLifecycleO
         onesignal.requestNotificationPermission();
 
         handleOnBackPressed();
-
         requestPostData();
 
     }
