@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 
 import com.app.yourvideoschannelapps.BuildConfig;
 import com.app.yourvideoschannelapps.a.FireEvent;
+import com.app.yourvideoschannelapps.a.LogUtils;
 import com.app.yourvideoschannelapps.a.Utils;
 
 import java.io.IOException;
@@ -49,8 +50,8 @@ public class RestAdapter {
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
 
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
-                .connectTimeout(5, TimeUnit.SECONDS)
-                .writeTimeout(10, TimeUnit.SECONDS)
+                .connectTimeout(30, TimeUnit.SECONDS)
+                .writeTimeout(30, TimeUnit.SECONDS)
                 .readTimeout(30, TimeUnit.SECONDS)
                 .addInterceptor(new Interceptor() {
                     @NonNull
@@ -79,7 +80,7 @@ public class RestAdapter {
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(okHttpClient)
                 .build();
-
+        LogUtils.i("baseurl:"+retrofit.baseUrl());
         return retrofit.create(ApiInterface.class);
 
     }

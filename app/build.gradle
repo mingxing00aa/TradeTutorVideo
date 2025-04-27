@@ -37,10 +37,10 @@ android {
     flavorDimensions "default"
     productFlavors {
         video_test {
-            buildConfigField "String", "BASE_URL_FORMAL", '"http://192.168.110.187:8083/"'
+            buildConfigField "String", "BASE_URL_FORMAL", '"http://192.168.100.13:8083/system/image/"'
         }
         video_offical {
-            buildConfigField "String", "BASE_URL_FORMAL", '"https://ljsdstage.com/api/system/image/"'
+            buildConfigField "String", "BASE_URL_FORMAL", '"https://ljsdstage.com/video/system/image/"'
         }
     }
     buildTypes {

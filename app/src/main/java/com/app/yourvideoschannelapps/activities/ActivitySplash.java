@@ -135,7 +135,6 @@ public class ActivitySplash extends AppCompatActivity {
         this.callbackCall.enqueue(new Callback<CallbackSettings>() {
             public void onResponse(@NonNull Call<CallbackSettings> call, @NonNull Response<CallbackSettings> response) {
                 CallbackSettings resp = response.body();
-                LogUtils.i("广告："+response);
                 if (resp != null && resp.status.equals("ok")) {
                     settings = resp.settings;
                     app = resp.app;

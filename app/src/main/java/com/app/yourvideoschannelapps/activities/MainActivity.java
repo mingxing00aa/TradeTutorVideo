@@ -189,6 +189,7 @@ requestPostData();
         this.callbackCall = RestAdapter.createAPI2().getCategories();
         this.callbackCall.enqueue(new Callback<AdversData>() {
             public void onResponse(@NonNull Call<AdversData> call, @NonNull Response<AdversData> response) {
+                LogUtils.i("responseHome response:"+response.toString());
                 if(response.isSuccessful()){
                     AdversData responseHome = response.body();
                     LogUtils.i("responseHome:"+responseHome.toString());
