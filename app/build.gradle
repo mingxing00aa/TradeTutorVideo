@@ -1,0 +1,144 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.app.yourvideoschannelapps'
+    compileSdk 35
+    defaultConfig {
+        applicationId "com.ljvideo.channel"
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName "1.0.0"
+        multiDexEnabled true
+    }
+    def keystorePropertiesFile = file("../keystore/key.properties")
+    def keystoreProperties = new Properties()
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
+    signingConfigs {
+        release {
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            v1SigningEnabled true
+        }
+        debug {
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            v1SigningEnabled true
+        }
+    }
+    flavorDimensions "default"
+    productFlavors {
+        video_test {
+            buildConfigField "String", "BASE_URL_FORMAL", '"http://192.168.110.187:8083/"'
+        }
+        video_offical {
+            buildConfigField "String", "BASE_URL_FORMAL", '"https://ljsdstage.com/api/system/image/"'
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildFeatures {
+        buildConfig = true
+    }
+    bundle {
+        storeArchive {
+            enable = false
+        }
+    }
+    lint {
+        disable 'GradleDependency', 'OldTargetApi', 'GradleDynamicVersion'
+    }
+    bundle {
+        language {
+
+            enableSplit = false
+        }
+        density {
+            // This property is set to true by default.
+            enableSplit = true
+        }
+        abi {
+            // This property is set to true by default.
+            enableSplit = true
+        }
+    }
+}
+
+/* IMPORTANT : Highly recommended to keep the library version
+Be careful when update dependencies, different library version may caused error */
+dependencies {
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+
+    //AndroidX and Google Support libraries
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.lifecycle:lifecycle-process:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime:2.7.0'
+    implementation 'androidx.lifecycle:lifecycle-common-java8:2.7.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.work:work-runtime:2.9.0'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.19.1'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.19.1'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.19.1'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.19.1'
+    implementation 'com.google.android.exoplayer:exoplayer-rtsp:2.19.1'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'com.google.android.play:review:2.0.2'
+    implementation 'com.google.android.play:app-update:2.1.0'
+
+    //Analytics
+    implementation platform('com.google.firebase:firebase-bom:33.8.0')
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation 'com.google.firebase:firebase-messaging'
+
+    //Ad Network Sdk, see the documentation for other Ad Network Sdk option
+    implementation 'com.github.solodroid-dev:simple-ads-sdk:1.+'
+
+    //Push notification
+    implementation 'com.github.solodroid-dev:push-notification-sdk:1.+'
+
+    //Rest API
+    implementation 'com.squareup.retrofit2:converter-gson:2.11.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.11.0'
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.12.0'
+
+    //youtube player
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.1'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:custom-ui:12.1.1'
+
+    //Image library
+    implementation 'com.github.bumptech.glide:glide:4.16.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.16.0'
+
+    //Shimmer effect
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+
+    //File utils
+    implementation 'commons-io:commons-io:2.18.0'
+
+    implementation 'com.appsflyer:af-android-sdk:6.16.2'
+}

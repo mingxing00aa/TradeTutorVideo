@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--application name-->
+    <string name="app_name">TradeTutorVideo</string>
+    <string name="app_copyright">Copyright &#169; 2025 TradeTutor \n All rights reserved</string>
+    <string name="report_email">support@tradetutorvideo.net</string>
+
+    <!--bottom navigation title-->
+    <string name="title_nav_video">ビデオ</string>
+    <string name="title_nav_category">カテゴリー</string>
+    <string name="title_nav_favorite">お気に入り</string>
+    <string name="title_nav_settings">設定</string>
+
+    <!--favorite-->
+    <string name="favorite_add">お気に入りに追加</string>
+    <string name="favorite_remove">お気に入りから削除</string>
+    <string name="msg_favorite_added">お気に入りに追加しました</string>
+    <string name="msg_favorite_removed">お気に入りから削除しました</string>
+    <string name="no_favorite_found">お気に入りリストは空です。お気に入りメニューに動画を追加していません</string>
+
+    <!--sort-->
+    <string name="title_sort">並び替え</string>
+    <string name="most_popular">人気順</string>
+    <string name="oldest">追加日順（古い順）</string>
+    <string name="newest">追加日順（新しい順）</string>
+
+    <!--network & error message-->
+    <string name="whops">おっと！</string>
+    <string name="network_required">動画を再生するにはインターネット接続が必要です！</string>
+    <string name="failed_title_text">おっと！</string>
+    <string name="failed_text">ネットワークに問題があるか、サーバーが現在ダウンしています。後ほど再度お試しください。</string>
+    <string name="failed_stream">ストリームの読み込みに失敗しました。ストリームサーバーが現在ダウンしている可能性があります！</string>
+    <string name="no_internet_text">ネットワークに問題があるか、サーバーが現在ダウンしています。後ほど再度お試しください。</string>
+    <string name="no_category_found">現在利用可能なカテゴリがないようです</string>
+    <string name="no_post_found">動画が見つかりません！検索を続ける場合は、別のキーワードを入力してください！</string>
+    <string name="msg_no_item">現在利用可能なコンテンツがないようです。</string>
+    <string name="msg_search_input">キーワードを入力してください</string>
+    <string name="msg_search">検索を開始するにはキーワードを入力してください</string>
+    <string name="error_player">YouTubePlayerの初期化中にエラーが発生しました（%1$s）</string>
+    <string name="track_selection_title">動画品質</string>
+    <string name="please_wait">動画の読み込みをお待ちください</string>
+    <string name="msg_cancel_update">更新がキャンセルされました</string>
+    <string name="msg_success_update">更新が成功しました！</string>
+    <string name="msg_failed_update">更新に失敗しました！</string>
+
+    <!--settings-->
+    <string name="title_settings">設定</string>
+    <string name="title_settings_theme">ダークテーマ</string>
+    <string name="sub_title_settings_theme">目の健康とバッテリー寿命に良い</string>
+    <string name="title_settings_videos">動画表示</string>
+    <string name="single_choice_default">デフォルト</string>
+    <string name="single_choice_compact">コンパクト</string>
+    <string name="title_settings_category">カテゴリ表示</string>
+    <string name="single_choice_list">リスト</string>
+    <string name="single_choice_grid_2">グリッド（2列）</string>
+    <string name="single_choice_grid_3">グリッド（3列）</string>
+    <string name="title_settings_notification">プッシュ通知</string>
+    <string name="sub_title_settings_notification">プッシュ通知設定の管理</string>
+    <string name="title_settings_clear_cache">キャッシュを消去</string>
+    <string name="sub_settings_clear_cache_start">解放された</string>
+    <string name="sub_settings_clear_cache_end">のスペース</string>
+    <string name="msg_cache_cleared">キャッシュが消去されました</string>
+    <string name="title_settings_privacy">プライバシーポリシー</string>
+    <string name="title_settings_share">共有</string>
+    <string name="title_settings_rate">評価する</string>
+    <string name="title_settings_more_apps">その他のアプリ</string>
+    <string name="title_settings_about">アプリについて</string>
+    <string name="title_settings_version">バージョン</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_no">いいえ</string>
+    <string name="dialog_retry">再試行</string>
+
+    <!--redirect if app suspended-->
+    <string name="redirect_title">新しいアプリの更新</string>
+    <string name="redirect_message">このアプリケーションは期限切れで使用されなくなりました。下のボタンを押して、このアプリケーションの最新アップデートをダウンロードしてインストールしてください。</string>
+    <string name="redirect_button">今すぐ更新をダウンロード</string>
+    <string name="redirect_error">おっと！URLに問題があります。後でもう一度お試しください</string>
+
+    <!--vpn info-->
+    <string name="vpn_detected">VPNが検出されました！</string>
+    <string name="close_vpn">お使いのデバイスでVPN接続が検出されました。VPN接続を閉じて、アプリを再度開いて続行してください。</string>
+
+    <!--others-->
+    <string name="share">友達に共有</string>
+    <string name="share_text">これをあなたに共有したいと思います。PlayStoreからこのアプリケーションをダウンロードできます</string>
+    <string name="menu_report">問題を報告</string>
+    <string name="video_count_text">動画</string>
+    <string name="views_count">閲覧数</string>
+    <string name="btn_retry">再試行</string>
+    <string name="search">検索</string>
+    <string name="search_text">検索中&#8230;</string>
+    <string name="txt_suggested">おすすめ</string>
+    <string name="press_again_to_close_player">もう一度押すとプレーヤーが閉じます</string>
+
+    <!--exit app-->
+    <string name="press_again_to_exit">もう一度押すと終了します</string>
+    <string name="exit_message">アプリを終了しますか？</string>
+    <string name="btn_dialog_cancel">キャンセル</string>
+    <string name="btn_dialog_exit">終了</string>
+    <string name="language">言語</string>
+</resources>

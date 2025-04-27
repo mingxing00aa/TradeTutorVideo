@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--application name-->
+    <string name="app_name">TradeTutorVideo</string>
+    <string name="app_copyright">Copyright &#169; 2025 TradeTutor \n All rights reserved</string>
+    <string name="report_email">support@tradetutorvideo.net</string>
+
+    <!--bottom navigation title-->
+    <string name="title_nav_video">视频</string>
+    <string name="title_nav_category">分类</string>
+    <string name="title_nav_favorite">收藏</string>
+    <string name="title_nav_settings">设置</string>
+
+    <!--favorite-->
+    <string name="favorite_add">添加到收藏</string>
+    <string name="favorite_remove">从收藏中移除</string>
+    <string name="msg_favorite_added">已添加到收藏</string>
+    <string name="msg_favorite_removed">已从收藏中移除</string>
+    <string name="no_favorite_found">您的收藏列表为空，因为您尚未在收藏菜单中添加任何视频</string>
+
+    <!--sort-->
+    <string name="title_sort">视频排序方式</string>
+    <string name="most_popular">最热门</string>
+    <string name="oldest">添加日期（最早）</string>
+    <string name="newest">添加日期（最新）</string>
+
+    <!--network & error message-->
+    <string name="whops">出错了！</string>
+    <string name="network_required">播放视频需要网络连接！</string>
+    <string name="failed_title_text">出错了！</string>
+    <string name="failed_text">您的网络出现问题或服务器当前无法连接，请稍后再试。</string>
+    <string name="failed_stream">加载流媒体失败，可能是流媒体服务器当前无法连接！</string>
+    <string name="no_internet_text">您的网络出现问题或服务器当前无法连接，请稍后再试。</string>
+    <string name="no_category_found">目前似乎没有可用的分类</string>
+    <string name="no_post_found">未找到视频！如果您想继续搜索，请尝试输入其他关键词！</string>
+    <string name="msg_no_item">目前似乎没有可用的内容。</string>
+    <string name="msg_search_input">请输入关键词</string>
+    <string name="msg_search">请输入关键词开始搜索</string>
+    <string name="error_player">初始化YouTube播放器时出错（%1$s）</string>
+    <string name="track_selection_title">视频质量</string>
+    <string name="please_wait">等待视频加载</string>
+    <string name="msg_cancel_update">更新已取消</string>
+    <string name="msg_success_update">更新成功！</string>
+    <string name="msg_failed_update">更新失败！</string>
+
+    <!--settings-->
+    <string name="title_settings">设置</string>
+    <string name="title_settings_theme">深色主题</string>
+    <string name="sub_title_settings_theme">更好地保护视力和延长电池寿命</string>
+    <string name="title_settings_videos">视频显示</string>
+    <string name="single_choice_default">默认</string>
+    <string name="single_choice_compact">紧凑</string>
+    <string name="title_settings_category">分类显示</string>
+    <string name="single_choice_list">列表</string>
+    <string name="single_choice_grid_2">网格（2列）</string>
+    <string name="single_choice_grid_3">网格（3列）</string>
+    <string name="title_settings_notification">推送通知</string>
+    <string name="sub_title_settings_notification">管理推送通知设置</string>
+    <string name="title_settings_clear_cache">清除缓存</string>
+    <string name="sub_settings_clear_cache_start">释放</string>
+    <string name="sub_settings_clear_cache_end">空间</string>
+    <string name="msg_cache_cleared">缓存已清除</string>
+    <string name="title_settings_privacy">隐私政策</string>
+    <string name="title_settings_share">分享</string>
+    <string name="title_settings_rate">评分</string>
+    <string name="title_settings_more_apps">更多应用</string>
+    <string name="title_settings_about">关于</string>
+    <string name="title_settings_version">版本</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_no">取消</string>
+    <string name="dialog_retry">重试</string>
+
+    <!--redirect if app suspended-->
+    <string name="redirect_title">新应用更新</string>
+    <string name="redirect_message">此应用程序已过期且不再使用，请点击下方按钮下载并安装此应用程序的最新更新。</string>
+    <string name="redirect_button">立即下载更新</string>
+    <string name="redirect_error">出错了！网址有问题，请稍后再试</string>
+
+    <!--vpn info-->
+    <string name="vpn_detected">检测到VPN连接！</string>
+    <string name="close_vpn">检测到您的设备正在使用VPN连接，请关闭VPN连接并重新打开应用以继续。</string>
+
+    <!--others-->
+    <string name="share">分享给朋友</string>
+    <string name="share_text">我想与您分享这个。您可以从PlayStore下载这个应用</string>
+    <string name="menu_report">报告问题</string>
+    <string name="video_count_text">视频</string>
+    <string name="views_count">次观看</string>
+    <string name="btn_retry">重试</string>
+    <string name="search">搜索</string>
+    <string name="search_text">搜索中&#8230;</string>
+    <string name="txt_suggested">推荐</string>
+    <string name="press_again_to_close_player">再次点击关闭播放器</string>
+
+    <!--exit app-->
+    <string name="press_again_to_exit">再次点击退出</string>
+    <string name="exit_message">您想退出应用吗？</string>
+    <string name="btn_dialog_cancel">取消</string>
+    <string name="btn_dialog_exit">退出</string>
+
+    <string name="language">语言</string>
+</resources>

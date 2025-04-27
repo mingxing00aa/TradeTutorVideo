@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--application name-->
+    <string name="app_name">TradeTutorVideo</string>
+    <string name="app_copyright">Copyright &#169; 2025 TradeTutor \n All rights reserved</string>
+    <string name="report_email">support@tradetutorvideo.net</string>
+
+    <!--bottom navigation title-->
+    <string name="title_nav_video">Vidéo</string>
+    <string name="title_nav_category">Catégorie</string>
+    <string name="title_nav_favorite">Favoris</string>
+    <string name="title_nav_settings">Paramètres</string>
+
+    <!--favorite-->
+    <string name="favorite_add">Ajouter aux favoris</string>
+    <string name="favorite_remove">Retirer des favoris</string>
+    <string name="msg_favorite_added">Ajouté aux favoris</string>
+    <string name="msg_favorite_removed">Retiré des favoris</string>
+    <string name="no_favorite_found">Votre liste de favoris est vide car vous n\'avez ajouté aucune vidéo dans le menu des favoris</string>
+
+    <!--sort-->
+    <string name="title_sort">Vidéos triées par</string>
+    <string name="most_popular">Plus populaires</string>
+    <string name="oldest">Date d\'ajout (plus anciennes)</string>
+    <string name="newest">Date d\'ajout (plus récentes)</string>
+
+    <!--network & error message-->
+    <string name="whops">Oups !</string>
+    <string name="network_required">Internet requis pour lire la vidéo !</string>
+    <string name="failed_title_text">Oups !</string>
+    <string name="failed_text">Il y a un problème avec votre réseau ou le serveur est actuellement indisponible, veuillez réessayer plus tard.</string>
+    <string name="failed_stream">Échec du chargement du flux, le serveur de streaming est probablement indisponible !</string>
+    <string name="no_internet_text">Il y a un problème avec votre réseau ou le serveur est actuellement indisponible, veuillez réessayer plus tard.</string>
+    <string name="no_category_found">Il semble qu\'il n\'y ait aucune catégorie disponible pour le moment</string>
+    <string name="no_post_found">Aucune vidéo trouvée ! Si vous souhaitez continuer la recherche, veuillez essayer un autre mot-clé !</string>
+    <string name="msg_no_item">Il semble qu\'il n\'y ait aucun contenu disponible pour le moment.</string>
+    <string name="msg_search_input">Veuillez insérer un mot-clé</string>
+    <string name="msg_search">Veuillez saisir vos mots-clés pour commencer la recherche</string>
+    <string name="error_player">Une erreur s\'est produite lors de l\'initialisation du lecteur YouTube (%1$s)</string>
+    <string name="track_selection_title">Qualité vidéo</string>
+    <string name="please_wait">Attendez que la vidéo soit chargée</string>
+    <string name="msg_cancel_update">Mise à jour annulée</string>
+    <string name="msg_success_update">Mise à jour réussie !</string>
+    <string name="msg_failed_update">Échec de la mise à jour !</string>
+
+    <!--settings-->
+    <string name="title_settings">Paramètres</string>
+    <string name="title_settings_theme">Thème sombre</string>
+    <string name="sub_title_settings_theme">Meilleur pour la vue et l\'autonomie de la batterie</string>
+    <string name="title_settings_videos">Affichage vidéo</string>
+    <string name="single_choice_default">Par défaut</string>
+    <string name="single_choice_compact">Compact</string>
+    <string name="title_settings_category">Affichage des catégories</string>
+    <string name="single_choice_list">Liste</string>
+    <string name="single_choice_grid_2">Grille (2 colonnes)</string>
+    <string name="single_choice_grid_3">Grille (3 colonnes)</string>
+    <string name="title_settings_notification">Notifications push</string>
+    <string name="sub_title_settings_notification">Gérer les paramètres de notification push</string>
+    <string name="title_settings_clear_cache">Vider le cache</string>
+    <string name="sub_settings_clear_cache_start">Libérer</string>
+    <string name="sub_settings_clear_cache_end">d\'espace</string>
+    <string name="msg_cache_cleared">Le cache a été vidé</string>
+    <string name="title_settings_privacy">Politique de confidentialité</string>
+    <string name="title_settings_share">Partager</string>
+    <string name="title_settings_rate">Évaluez-nous</string>
+    <string name="title_settings_more_apps">Plus d\'applications</string>
+    <string name="title_settings_about">À propos</string>
+    <string name="title_settings_version">Version</string>
+
+    <!--dialog choose option-->
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_no">NON</string>
+    <string name="dialog_retry">RÉESSAYER</string>
+
+    <!--redirect if app suspended-->
+    <string name="redirect_title">Nouvelles mises à jour de l\'application</string>
+    <string name="redirect_message">Cette application a expiré et n\'est plus utilisée, appuyez sur le bouton ci-dessous pour télécharger et installer la dernière mise à jour de cette application.</string>
+    <string name="redirect_button">Télécharger la mise à jour maintenant</string>
+    <string name="redirect_error">Oups ! il y a un problème avec l\'URL, réessayez plus tard</string>
+
+    <!--vpn info-->
+    <string name="vpn_detected">VPN détecté !!</string>
+    <string name="close_vpn">Votre appareil utilise une connexion VPN, fermez votre connexion VPN et rouvrez l\'application pour continuer.</string>
+
+    <!--others-->
+    <string name="share">Partager avec des amis</string>
+    <string name="share_text">J\'aimerais partager ceci avec vous. Vous pouvez télécharger cette application depuis le PlayStore</string>
+    <string name="menu_report">Signaler un problème</string>
+    <string name="video_count_text">Vidéos</string>
+    <string name="views_count">vues</string>
+    <string name="btn_retry">Réessayer</string>
+    <string name="search">Rechercher</string>
+    <string name="search_text">Recherche&#8230;</string>
+    <string name="txt_suggested">Suggéré</string>
+    <string name="press_again_to_close_player">Appuyez à nouveau pour fermer le lecteur</string>
+
+    <!--exit app-->
+    <string name="press_again_to_exit">Appuyez à nouveau pour quitter</string>
+    <string name="exit_message">Voulez-vous quitter l\'application ?</string>
+    <string name="btn_dialog_cancel">Annuler</string>
+    <string name="btn_dialog_exit">Quitter</string>
+    <string name="language">langue</string>
+</resources> 

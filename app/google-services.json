@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "717932888346",
+    "project_id": "videoschannel-d89e5",
+    "storage_bucket": "videoschannel-d89e5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717932888346:android:ad4c78f464f77b01d6eca3",
+        "android_client_info": {
+          "package_name": "com.ljvideo.channel"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBChkty_70gqNwoo-CEc3CoDKbZ2Uzhnf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

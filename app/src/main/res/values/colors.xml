@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--app main color-->
+    <color name="color_light_primary">#FB4E1D</color>
+    <color name="color_light_status_bar">#FB4E1D</color>
+    <color name="color_light_accent">#ECA324</color>
+    <color name="color_light_background">#FFFFFF</color>
+    <color name="color_light_bottom_navigation">#EFF4F8</color>
+    <color name="color_light_icon">#797979</color>
+    <color name="color_light_active_indicator">#FDDBDA</color>
+    <color name="color_light_native_ad_background">#F3F3F3</color>
+
+    <!--dark theme color-->
+    <color name="color_dark_primary">#222D36</color>
+    <color name="color_dark_status_bar">#0F1D24</color>
+    <color name="color_dark_accent">#ECA324</color>
+    <color name="color_dark_background">#101D24</color>
+    <color name="color_dark_bottom_navigation">#222D36</color>
+    <color name="color_dark_icon">#BDC0C3</color>
+    <color name="color_dark_active_indicator">#384756</color>
+    <color name="color_dark_native_ad_background">#222D36</color>
+
+    <!--others-->
+    <color name="color_shimmer">#BCBEC1</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_overlay">#66000000</color>
+    <color name="color_dialog_background_light">#5E000000</color>
+    <color name="color_dialog_status_bar_light">#A1A1A1</color>
+    <color name="color_dialog_navigation_bar_light">#989A9C</color>
+    <color name="color_dialog_background_dark_overlay">#5E000000</color>
+    <color name="color_dialog_status_bar_dark">#091217</color>
+    <color name="color_dialog_background_dark">#2F373C</color>
+
+    <color name="transparent">#00000000</color>
+</resources>
