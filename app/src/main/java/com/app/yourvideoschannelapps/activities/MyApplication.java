@@ -71,6 +71,7 @@ public class MyApplication extends Application {
         adsPref = new AdsPref(this);
         mInstance = this;
 
+
         if (!AppConfig.FORCE_TO_SHOW_APP_OPEN_AD_ON_START) {
             registerActivityLifecycleCallbacks(activityLifecycleCallbacks);
             ProcessLifecycleOwner.get().getLifecycle().addObserver(lifecycleObserver);
